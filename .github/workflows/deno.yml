@@ -1,0 +1,49 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# This workflow will install Deno then run Deno lint and test.
+# For more information see: https://github.com/denoland/setup-deno
+
+name: Auto Update CI (Deno)
+
+on:
+  schedule:
+    - cron: "0 0 * * SUN"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.7
+
+      - name: Run deno script
+        run: deno run --allow-all list2md.ts
+
+      - name: Commit & Push
+        env:
+          USER: github-actions[bot]
+          EMAIL: github-actions[bot]@users.noreply.github.com
+        run: |
+          git status
+          git remote -v
+          git config user.email $EMAIL
+          git config user.name $USER
+          git checkout master
+          git add README.md
+          git commit -m "Auto update"
+          git push
