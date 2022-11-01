@@ -1,0 +1,10 @@
+# Top React UI Frameworks
+
+A list of popular github projects related to React UI framework (ranked by stars automatically)
+Please update **list.txt** (via Pull Request)
+
+| Project Name | Stars | Forks | Open Issues | Description | Last Commit |
+| ------------ | ----- | ----- | ----------- | ----------- | ----------- |<% repos.forEach( repo => { %>
+| [<%= repo.name %>](<%= repo.html_url %>) |<%= repo.stargazers_count %>|<%= repo.forks_count %>|<%= repo.open_issues_count %>|<%= repo.description %>|<%= repo.pushed_at %>|<% }); %>
+
+*Last Automatic Update: <%= time %>*
