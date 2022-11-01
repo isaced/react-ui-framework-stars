@@ -43,7 +43,7 @@ jobs:
           git remote -v
           git config user.email $EMAIL
           git config user.name $USER
-          git checkout master
+          git checkout main
           git add README.md
           git commit -m "Auto update"
           git push
