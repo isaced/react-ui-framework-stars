@@ -11,6 +11,9 @@ name: Auto Update CI (Deno)
 on:
   schedule:
     - cron: "0 0 * * SUN"
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
