@@ -9,3 +9,4 @@ https://github.com/vechai/vechaiui
 https://github.com/DouyinFE/semi-design
 https://github.com/microsoft/fluentui
 https://github.com/ElemeFE/element-react
+https://github.com/mantinedev/mantine
