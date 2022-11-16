@@ -7,7 +7,7 @@ const listTxt = await Deno.readTextFile("list.txt");
 const lines = listTxt.split("\n");
 
 // Fetch GitHub repo info
-const repos = [];
+let repos = [];
 for (const url of lines) {
   if (!url.startsWith(GITHUB_PREFIX)) {
     continue;
@@ -21,6 +21,9 @@ for (const url of lines) {
 
   repos.push(repo);
 }
+
+// sort by start count
+repos = repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
 
 // Write to README.md
 const readmeTpl = await Deno.readTextFileSync("README.ejs");
