@@ -15,3 +15,4 @@ https://github.com/adobe/react-spectrum
 https://github.com/geist-org/geist-ui
 https://github.com/primer/react
 https://github.com/uber/baseweb
+https://github.com/tremorlabs/tremor
