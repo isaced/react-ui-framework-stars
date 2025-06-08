@@ -5,26 +5,26 @@ Please update **list.txt** (via Pull Request)
 
 | Project Name | Stars | Forks | Open Issues | Description | Last Commit |
 | ------------ | ----- | ----- | ----------- | ----------- | ----------- |
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
-| []() ||||||
+| [material-ui](https://github.com/mui/material-ui) |95856|32580|1740|Material UI: Comprehensive React component library that implements Google&#39;s Material Design. Free forever.|2025-06-08T01:03:25Z|
+| [ant-design](https://github.com/ant-design/ant-design) |95005|52599|1271|An enterprise-class UI design language and React UI library|2025-06-06T13:48:26Z|
+| [ui](https://github.com/shadcn-ui/ui) |88380|6047|1844|A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.|2025-06-06T16:09:55Z|
+| [chakra-ui](https://github.com/chakra-ui/chakra-ui) |39201|3422|6|Chakra UI is a component system for building SaaS products with speed ⚡️|2025-06-06T14:40:21Z|
+| [mantine](https://github.com/mantinedev/mantine) |28873|2067|32|A fully featured React components library|2025-06-06T05:04:12Z|
+| [heroui](https://github.com/heroui-inc/heroui) |24477|1796|297|🚀 Beautiful, fast and modern React UI library. (Previously NextUI)|2025-06-07T17:00:57Z|
+| [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) |22560|3613|202|Bootstrap components built with React|2025-06-06T19:37:38Z|
+| [fluentui](https://github.com/microsoft/fluentui) |19217|2800|661|Fluent UI web represents a collection of utilities, React components, and web components for building web applications.|2025-06-07T08:26:44Z|
+| [primitives](https://github.com/radix-ui/primitives) |17261|963|643|Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.|2025-05-27T17:39:41Z|
+| [react-spectrum](https://github.com/adobe/react-spectrum) |13989|1258|653|A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.|2025-06-07T01:44:09Z|
+| [Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React) |13245|4059|225|The official Semantic-UI-React integration|2024-11-22T09:09:59Z|
+| [evergreen](https://github.com/segmentio/evergreen) |12393|822|80|🌲 Evergreen React UI Framework by Segment|2024-07-09T04:30:28Z|
+| [reactstrap](https://github.com/reactstrap/reactstrap) |10565|1298|319|Simple React Bootstrap 5 components|2024-09-26T09:40:49Z|
+| [semi-design](https://github.com/DouyinFE/semi-design) |9200|747|259|🚀A modern, comprehensive, flexible design system and React UI library. 🎨 Provide more than 3000+ Design Tokens, easy to build your design system. Make Semi Design to Any Design.  🧑🏻‍💻 Design to Code in one click |2025-05-30T08:03:45Z|
+| [baseweb](https://github.com/uber/baseweb) |8837|838|164|A React Component library implementing the Base design language|2025-04-21T17:02:32Z|
+| [rebass](https://github.com/rebassjs/rebass) |7937|651|97|:atom_symbol: React primitive UI components built with styled-system.|2023-07-27T03:42:53Z|
+| [geist-ui](https://github.com/geist-org/geist-ui) |4460|336|57|A design system for building modern websites and applications.|2024-07-20T07:18:46Z|
+| [react](https://github.com/primer/react) |3572|610|79|An implementation of GitHub&#39;s Primer Design System using React|2025-06-06T23:36:55Z|
+| [element-react](https://github.com/ElemeFE/element-react) |2844|442|260|Element UI|2023-01-14T21:13:08Z|
+| [tremor](https://github.com/tremorlabs/tremor) |2360|84|16|Copy &amp; Paste React components to build modern web applications. |2025-04-12T20:15:29Z|
+| [vechaiui](https://github.com/vechai/vechaiui) |1220|63|14|A set of high-quality accessible React UI components with the built-in dark mode using Tailwind CSS. Pre-designed headless ui and radix-ui.|2022-12-23T13:29:41Z|
 
-*Last Automatic Update: Sun, 01 Jun 2025 01:09:52 GMT*
+*Last Automatic Update: Sun, 08 Jun 2025 01:04:23 GMT*
